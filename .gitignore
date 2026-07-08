@@ -1,0 +1,32 @@
+# Fabric Example Mod
+
+# Java
+*.class
+*.log
+
+# gradle
+.gradle/
+build/
+out/
+
+# eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.vscode/
+*.code-workspace
+
+# macos
+*.ds_store
+
+# fabric
+run/
