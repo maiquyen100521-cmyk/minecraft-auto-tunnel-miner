@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "autotunnelminer",
+  "version": "${version}",
+  "name": "Auto Tunnel Miner",
+  "description": "Automatic tunnel mining bot for Minecraft",
+  "authors": [
+    "AutoTunnel Dev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.autotunnel.AutoTunnelMod"
+    ],
+    "client": [
+      "com.autotunnel.client.AutoTunnelClient"
+    ]
+  },
+  "mixins": [
+    "autotunnelminer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "1.26.2",
+    "java": ">=${java_version}"
+  }
+}
